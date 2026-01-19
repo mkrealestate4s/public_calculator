@@ -22,11 +22,10 @@ def num_to_korean(num):
 
 # ===== 입력 =====
 sale_price = st.number_input("매매가격 (원)", min_value=0, step=10000000)
-deposit = st.number_input("보증금 (원)", min_value=0, step=1000000)
-monthly_rent = st.number_input("월세 (원)", min_value=0, step=100000)
-
 st.caption(f"매매가격: **{sale_price:,}원** ({num_to_korean(sale_price)})")
+deposit = st.number_input("보증금 (원)", min_value=0, step=1000000)
 st.caption(f"보증금: **{deposit:,}원** ({num_to_korean(deposit)})")
+monthly_rent = st.number_input("월세 (원)", min_value=0, step=100000)
 st.caption(f"월세: **{monthly_rent:,}원**")
 
 st.divider()
