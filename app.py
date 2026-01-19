@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.set_page_config(page_title="상가 수익률 6% 계산기", layout="centered")
+st.set_page_config(page_title="상가 수익률 계산기", layout="centered")
 
-st.title("📊 상가 수익률 6% 계산기")
+st.title("📊 상가 수익률 계산기")
 st.write("※ 현 임차인 기준 단순 수익률 (1차 필터용)")
 
 def num_to_korean(num):
